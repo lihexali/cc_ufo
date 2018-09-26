@@ -6,3 +6,5 @@ Cocos Creator Version: 2.0.2
 
 Creadit:
 [https://unity3d.com/learn/tutorials/s/2d-ufo-tutorial](https://unity3d.com/learn/tutorials/s/2d-ufo-tutorial)
+
+![Screen Shot](https://raw.githubusercontent.com/lihe757/ccc_ufo/master/Screen%20Shot.png)
