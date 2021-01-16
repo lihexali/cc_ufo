@@ -22,31 +22,7 @@ cc.Class({
 
     onLoad () {
         cc.director.getPhysicsManager().enabled = true;
-        var self = this;
-        var camera = self.node
-        this.offset = null;
-        //add keyboard input listener to jump, turnLeft and turnRight
-
-        // cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, function(event) {
-        //     switch(event.keyCode) {
-        //         case cc.macro.KEY.a:
-        //             self.offsetX = -10;
-        //             break;
-        //             case cc.macro.KEY.d:
-        //         self.offsetX = 10;
-        //             break;
-        //     }
-        // })
-
-        // cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, function(event) {
-        //     switch(event.keyCode) {
-        //         case cc.macro.KEY.a:
-        //         case cc.macro.KEY.d:
-        //         self.offsetX = 0;
-        //             break;
-        //     }
-        // })
-        
+        this.offset = cc.v2(0, 0);
     },
 
     start () {

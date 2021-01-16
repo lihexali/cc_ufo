@@ -37,7 +37,7 @@ cc.Class({
     },
 
     update (dt) {
-        this.node.rotation = this.node.rotation + dt * 30;
-        this.node.rotation = this.node.rotation > 360 ? this.node.rotation % 360 : this.node.rotation;
+        this.node.angle = this.node.angle + dt * 30;
+        this.node.angle = this.node.angle % 360;
     },
 });
